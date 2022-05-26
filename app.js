@@ -65,10 +65,10 @@ app.get('/home', async function (req, res) {
 
 		const mysql = require('mysql2/promise');
 		const connection = await mysql.createConnection({
-			host: "localhost",
-			user: "root",
-			password: "",
-			database: "COMP2800",
+			host: "us-cdbr-east-05.cleardb.net",
+			user: "b20908011a59ab",
+			password: "acd0f05a",
+			database: "heroku_3ab6d14067382dc",
 			multipleStatements: true
 		});
 
@@ -106,10 +106,10 @@ app.get('/home', async function (req, res) {
 	} else if (req.session.loggedIn && req.session.role == "admin") {
 		const mysql = require('mysql2/promise');
 		const connection = await mysql.createConnection({
-			host: "localhost",
-			user: "root",
-			password: "",
-			database: "COMP2800",
+			host: "us-cdbr-east-05.cleardb.net",
+			user: "b20908011a59ab",
+			password: "acd0f05a",
+			database: "heroku_3ab6d14067382dc",
 			multipleStatements: true
 		});
 
@@ -147,10 +147,10 @@ app.post("/login", async function (req, res) {
 
 	const mysql = require('mysql2/promise');
 	const connection = await mysql.createConnection({
-		host: "localhost",
-		user: "root",
-		password: "",
-		database: "COMP2800",
+		host: "us-cdbr-east-05.cleardb.net",
+		user: "b20908011a59ab",
+		password: "acd0f05a",
+		database: "heroku_3ab6d14067382dc",
 		multipleStatements: true
 	});
 
@@ -203,10 +203,10 @@ app.post("/add", async function (req, res) {
 	const mysql = require('mysql2/promise');
 
 	const connection = await mysql.createConnection({
-		host: "localhost",
-		user: "root",
-		password: "",
-		database: "COMP2800",
+		host: "us-cdbr-east-05.cleardb.net",
+		user: "b20908011a59ab",
+		password: "acd0f05a",
+		database: "heroku_3ab6d14067382dc",
 		multipleStatements: true
 	});
 
@@ -274,10 +274,10 @@ app.post("/delete", async function (req, res) {
 	const mysql = require('mysql2/promise');
 
 	const connection = await mysql.createConnection({
-		host: "localhost",
-		user: "root",
-		password: "",
-		database: "COMP2800",
+		host: "us-cdbr-east-05.cleardb.net",
+		user: "b20908011a59ab",
+		password: "acd0f05a",
+		database: "heroku_3ab6d14067382dc",
 		multipleStatements: true
 	});
 
@@ -302,10 +302,10 @@ app.post('/getUser', async function (req, res) {
 	const mysql = require('mysql2/promise');
 
 	const connection = await mysql.createConnection({
-		host: "localhost",
-		user: "root",
-		password: "",
-		database: "COMP2800",
+		host: "us-cdbr-east-05.cleardb.net",
+		user: "b20908011a59ab",
+		password: "acd0f05a",
+		database: "heroku_3ab6d14067382dc",
 		multipleStatements: true
 	});
 
@@ -320,10 +320,10 @@ app.post('/edit', async function (req, res) {
 	const mysql = require('mysql2/promise');
 
 	const connection = await mysql.createConnection({
-		host: "localhost",
-		user: "root",
-		password: "",
-		database: "COMP2800",
+		host: "us-cdbr-east-05.cleardb.net",
+		user: "b20908011a59ab",
+		password: "acd0f05a",
+		database: "heroku_3ab6d14067382dc",
 		multipleStatements: true
 	});
 
@@ -346,10 +346,10 @@ app.post("/update", async function (req, res) {
 	const mysql = require('mysql2/promise');
 
 	const connection = await mysql.createConnection({
-		host: "localhost",
-		user: "root",
-		password: "",
-		database: "COMP2800",
+		host: "us-cdbr-east-05.cleardb.net",
+		user: "b20908011a59ab",
+		password: "acd0f05a",
+		database: "heroku_3ab6d14067382dc",
 		multipleStatements: true
 	});
 
@@ -378,10 +378,11 @@ app.post("/uploadProfileImage", async function (req, res) {
 	const mysql = require('mysql2/promise');
 
 	const connection = await mysql.createConnection({
-		host: "localhost",
-		user: "root",
-		password: "",
-		database: "COMP2800",
+		host: "us-cdbr-east-05.cleardb.net",
+		user: "b20908011a59ab",
+		password: "acd0f05a",
+		database: "heroku_3ab6d14067382dc",
+		multipleStatements: true
 	});
 
 	let profileImage;
@@ -413,10 +414,10 @@ app.get("/currentAccountInfo", async function (req, res) {
 	const mysql = require('mysql2/promise');
 
 	const connection = await mysql.createConnection({
-		host: "localhost",
-		user: "root",
-		password: "",
-		database: "COMP2800",
+		host: "us-cdbr-east-05.cleardb.net",
+		user: "b20908011a59ab",
+		password: "acd0f05a",
+		database: "heroku_3ab6d14067382dc",
 		multipleStatements: true
 	});
 
@@ -476,10 +477,10 @@ app.get("/history", async function (req, res) {
 	const mysql = require('mysql2/promise');
 
 	const connection = await mysql.createConnection({
-		host: "localhost",
-		user: "root",
-		password: "",
-		database: "COMP2800",
+		host: "us-cdbr-east-05.cleardb.net",
+		user: "b20908011a59ab",
+		password: "acd0f05a",
+		database: "heroku_3ab6d14067382dc",
 		multipleStatements: true
 	});
 
@@ -591,10 +592,10 @@ app.get("/get_charities", async function (req, res) {
 	const mysql = require('mysql2/promise');
 
 	const connection = await mysql.createConnection({
-		host: "localhost",
-		user: "root",
-		password: "",
-		database: "COMP2800",
+		host: "us-cdbr-east-05.cleardb.net",
+		user: "b20908011a59ab",
+		password: "acd0f05a",
+		database: "heroku_3ab6d14067382dc",
 		multipleStatements: true
 	});
 
@@ -610,10 +611,10 @@ app.post("/donate", async function (req, res) {
 	const mysql = require('mysql2/promise');
 
 	const connection = await mysql.createConnection({
-		host: "localhost",
-		user: "root",
-		password: "",
-		database: "COMP2800",
+		host: "us-cdbr-east-05.cleardb.net",
+		user: "b20908011a59ab",
+		password: "acd0f05a",
+		database: "heroku_3ab6d14067382dc",
 		multipleStatements: true
 	});
 
@@ -644,10 +645,10 @@ app.post("/createTimeline", async function (req, res) {
 	const mysql = require('mysql2/promise');
 
 	const connection = await mysql.createConnection({
-		host: "localhost",
-		user: "root",
-		password: "",
-		database: "COMP2800",
+		host: "us-cdbr-east-05.cleardb.net",
+		user: "b20908011a59ab",
+		password: "acd0f05a",
+		database: "heroku_3ab6d14067382dc",
 		multipleStatements: true
 	});
 
@@ -692,10 +693,10 @@ app.post("/updateTimelineForm", async function (req, res) {
 	const mysql = require('mysql2/promise');
 
 	const connection = await mysql.createConnection({
-		host: "localhost",
-		user: "root",
-		password: "",
-		database: "COMP2800",
+		host: "us-cdbr-east-05.cleardb.net",
+		user: "b20908011a59ab",
+		password: "acd0f05a",
+		database: "heroku_3ab6d14067382dc",
 		multipleStatements: true
 	});
 
@@ -716,10 +717,10 @@ app.post("/updateTimeline", async function (req, res) {
 	const mysql = require('mysql2/promise');
 
 	const connection = await mysql.createConnection({
-		host: "localhost",
-		user: "root",
-		password: "",
-		database: "COMP2800",
+		host: "us-cdbr-east-05.cleardb.net",
+		user: "b20908011a59ab",
+		password: "acd0f05a",
+		database: "heroku_3ab6d14067382dc",
 		multipleStatements: true
 	});
 
@@ -757,10 +758,10 @@ app.post("/deleteTimeline", async function (req, res) {
 	const mysql = require('mysql2/promise');
 
 	const connection = await mysql.createConnection({
-		host: "localhost",
-		user: "root",
-		password: "",
-		database: "COMP2800",
+		host: "us-cdbr-east-05.cleardb.net",
+		user: "b20908011a59ab",
+		password: "acd0f05a",
+		database: "heroku_3ab6d14067382dc",
 		multipleStatements: true
 	});
 
@@ -777,9 +778,10 @@ async function init() {
 
 	const mysql = require("mysql2/promise");
 	const connection = await mysql.createConnection({
-		host: "localhost",
-		user: "root",
-		password: "",
+		host: "us-cdbr-east-05.cleardb.net",
+		user: "b20908011a59ab",
+		password: "acd0f05a",
+		database: "heroku_3ab6d14067382dc",
 		multipleStatements: true
 	});
 
@@ -803,5 +805,5 @@ app.use(function (req, res, next) {
 });
 
 let port = 8000;
-app.listen(process.env.PORT || port, init);
+app.listen(process.env.PORT || port);
 
