@@ -17,10 +17,12 @@
 
     .deleteBtn {
         width: 100px;
+        height: 30px !important;
     }
 
     .editBtn {
         width: 100px;
+        height: 30px !important;
     }
 
     #user_list_container td {

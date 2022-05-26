@@ -8,10 +8,28 @@ input[type=button], #create_user_button {
 input[type=button]:hover, .general_button:hover{
     filter: brightness(80%);
     transition: var(--hover-speed) ease;
-
 }
 
-#sign_out, .general_button
+.demo-button
+{
+    background-color: rgb(235, 55, 55);
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 0.8em;
+    border: none;
+    cursor: pointer;
+}
+
+.demo-button:hover
+{
+    filter: brightness(80%);
+    transition: var(--hover-speed) ease;
+}
+
+#sign_in, .general_button
 {
     background-color: var(--fc_purple);
     padding: 10px 15px;
@@ -19,9 +37,25 @@ input[type=button]:hover, .general_button:hover{
     text-decoration: none;
     text-align: center;
     border-radius: 8px;
-    /* margin-right: 20px; */
     font-size: 0.8em;
     border: none;
+    cursor: pointer;
+}
+
+
+#logged_in
+{
+    width: 70px;
+    height: 50px;
+    font-size: 1.7em;
+    display: none;
+}
+
+#sign_in
+{
+    padding: 15px 20px;
+    font-size: 1em;
+    display: none;
 }
 
 #new_user
